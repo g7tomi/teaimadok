@@ -8,31 +8,15 @@ function ProductController(CartFactory, $stateParams, $state,toastr) {
     vm.getPricePerItem = getPricePerItem;
     if($stateParams.productId == 'matcha'){
         vm.product = {
-            name : 'Matcha',
-            heading:'Heading',  shortdescription:'blblaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-            description: 'blblaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+            name : 'Matcha tea',
+            heading:'Matcha tea',
+            shortdescription:'Csatlakozz a legújabb egészség őrülethez. A Matcha tea most Magyarországra is megérkezett.',
+            description: 'A legújabb egészség őrület Nyugaton már tombol és most végre Magyarországra is megérkezett! Ez a mozgalom egy egy őrölt zöld tea formájában jelent meg, amelyet Matcha-nak hívnak. A Matcha egy japán őrölt tea por, amelynek majdnem végtelen egészségügyi előnye van.',
             image:'/dist/images/matchaproduct.png',
             quantity:1,
             price:5000,
             gramm:30,
-            pricePerItem:0,
-            icons:[{
-                icon:'fa fa-camera-retro fa-3x',
-                text:'hello'
-            },{
-                icon:'fa fa-camera-retro fa-3x',
-                text:'hello2'
-            },{
-                icon:'fa fa-camera-retro fa-3x',
-                text:'hello3'
-            },{
-                icon:'fa fa-camera-retro fa-3x',
-                text:'hello4'
-            },{
-                icon:'fa fa-camera-retro fa-3x',
-                text:'hello5'
-            }
-            ]
+            pricePerItem:0
         }
         
     }else {

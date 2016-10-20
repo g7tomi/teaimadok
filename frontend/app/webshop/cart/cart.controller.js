@@ -6,7 +6,7 @@ function CartController(CartFactory, toastr) {
     vm.addProduct = addProduct;
     vm.subProduct = subProduct;
     vm.removeProduct = removeProduct;
-    console.log(vm.products)
+    
     
     function addProduct() {
         updateProduct(vm.products);    

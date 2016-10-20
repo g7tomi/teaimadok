@@ -1,31 +1,45 @@
 <div class="product">
     <div class="container">
-        <h1 class="title">{{vm.product.name}}</h1>
         <div class="row">
-            <div class="col-md-6 col-xs-12 ">
-                <img src="{{vm.product.image}}" class="product-image" alt="product"/>
-            </div>
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="row">
-                    <h2 class="heading">{{vm.product.heading}}</h2>
-                    <p class="description">{{vm.product.description}}</p>
-                </div> 
-                
-                <div class="pricebox center-block">
+                    <img src="{{vm.product.image}}" class="col-md-12 col-sm-12 col-xs-12 product-image" alt="product"/>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 center-block">
+                <div class="center-block">
                     <div class="row">
-                        <h2>Ár: <span>{{vm.product.price}}Ft</span></h2>
-                        <p>{{vm.product.gramm}} grammos kiszerelésből {{vm.product.gramm}} csésze tea készthető</p>
-                        <h2 ng-init="vm.getPricePerItem()">{{vm.product.pricePerItem}}Ft/adag</h2>
-                        <p>A házhoz szállítás <b>INGYENES!</b></p>
+                        <h3 class="heading">{{vm.product.heading}}</h3>
+                    </div> 
+                    <div class="row">
+                        <p class="description">{{vm.product.description}}</p>
                     </div>
-                    <div class="row">
+                    <hr/>
+
+                </div>
+                <div class="pricebox center-block">
+                    <div class="row ">
+                         <h2 ng-init="vm.getPricePerItem()" class="price"><b>Akár {{vm.product.pricePerItem}}Ft/csésze!</b></h2>
+                        <div class="center-text">{{vm.product.gramm}} grammos kiszerelésből {{vm.product.gramm}} csésze tea készthető</div>                
+                    </div>
+                    <hr/>
+
+                    <div class="quantity">
+                        <p class="productprice"><b>{{vm.product.price}}Ft/db</b> </p>
+                        <p><b>Kiszerelés: {{vm.product.gramm}}g</b></p>
+
                         <button ng-init="vm.product.quantity" class="btn orange lighten-2" ng-click="vm.product.quantity>1 &&  (vm.product.quantity = vm.product.quantity-1)">-</button>
-                                {{vm.product.quantity}}
-                        <button class="btn orange lighten-2" ng-click="vm.product.quantity<10 &&  (vm.product.quantity = vm.product.quantity+1)">+</button>
-                        <button class="btn-large green" ng-click="vm.buy()">Hozáadás<i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></button>
+                               {{vm.product.quantity}}
+                        <button class="btn orange lighten-2" ng-click="vm.product.quantity<10 &&  (vm.product.quantity = vm.product.quantity+1)">+</button>  
+                    </div>
+                    <div class="row">                        
+                        <button class="btn-large green col-sm-12 col-xs-12 col-md-12" ng-click="vm.buy()">Megveszem<i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></button> 
+                        <div class="center-text">A házhoz szállítás <b>INGYENES!</b></div>
                     </div>
 
                 </div>
+
                 <div class="row">
                     <div class="col-lg-6 icons" ng-repeat="icon in vm.product.icons">
                         <div class="col-xs-6 text">
@@ -36,6 +50,8 @@
                         </div>
                     </div>
                 </div>
+            
+            
             </div>
         </div>
     </div>

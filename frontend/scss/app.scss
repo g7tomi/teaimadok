@@ -108,13 +108,21 @@ a.project-link:hover {
 }
 
 .product {
+     margin-top:100px;
+    .center-text{
+            text-align: center;
+    }   
     .title {
-        margin-top:100px;
+       
         text-transform: uppercase;
         color: #1A1D22;
     }
-    
+
     .heading{
+        color:black;
+        margin-bottom:1.2em;
+        text-decoration: underline;
+        color:gray;
         text-transform: uppercase;
     }
     .description{
@@ -123,9 +131,30 @@ a.project-link:hover {
         word-wrap:break-word;
         font-size:16px;
     }
+
     .product-image{
-        max-width: 400px;
-        max-height: auto;
+        margin-top: 30px;
+    }
+    .pricebox{
+                    .price{
+                 text-align: center;
+            }
+        .quantity{
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 25px;
+
+            .productprice{
+                 text-align: center;
+            
+                font-size: 27px;
+                
+            }
+            p{
+                   font-size: 18px;
+            }
+        }
+
     }
 
     margin-bottom:50px;
@@ -228,7 +257,6 @@ a.project-link:hover {
 
 }
 .mypreloader{
-    
     position: fixed;
     left: 50%;
     top: 50%;
@@ -240,4 +268,7 @@ a.project-link:hover {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
+}
+.mypreloaderNone{
+    display: none;
 }

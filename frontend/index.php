@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
         
 
-		<link rel="stylesheet" href="http://localhost:8080/dist/css/app.css">
+		<link rel="stylesheet" href="dist/css/app.css">
 
 
         <base href="/">    
@@ -74,7 +74,6 @@
 
                         <form class="subscribe_form" novalidate>
                             <div class="form-group">
-                                <label for="name">Név</label>
                                 <input type="text" class="required form-control"  name="name" id="name"  placeholder="Név" required/>
                             </div>
                             <div class="form-group">
@@ -123,7 +122,7 @@
         </div>
     </section>
         </div>
-        <div id="preloader" class="preloader-wrapper big mypreloader">
+        <div id="preloader" class="preloader-wrapper big active mypreloader mypreloaderNone">
               <div class="spinner-layer spinner-blue">
                 <div class="circle-clipper left">
                   <div class="circle" style="border-width: 10px;"></div>
@@ -135,9 +134,9 @@
               </div>
         </div>        
             
-        <script src="http://localhost:8080/dist/lib/angularlib.min.js"></script> 
-                <script src="http://localhost:8080/dist/app.min.js"></script>    
-		<script src="http://localhost:8080/dist/lib.min.js"></script>
+        <script src="dist/lib/angularlib.min.js"></script> 
+                <script src="dist/app.min.js"></script>    
+		<script src="dist/lib.min.js"></script>
 
     
     </body>

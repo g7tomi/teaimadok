@@ -17,14 +17,4 @@ class Kernel extends HttpKernel {
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
         'LucaDegasperi\OAuth2Server\Middleware\OAuthExceptionHandlerMiddleware'
 	];
-
-	/**
-	 * The application's route middleware.
-	 *
-	 * @var array
-	 */
-	protected $routeMiddleware = [
-        'admin' => \App\Http\Middleware\AdminMiddleware::class
-	];
-
 }
