@@ -1,7 +1,7 @@
 /**
  * Created by fogttamas on 23/08/16.
  */
-function CartFactory($http, URL_CONFIG, $rootScope){
+function CartFactory($http, URL_CONFIG, $rootScope, $cookies){
   "ngInject"
     $rootScope.products = [];
   var service = {
@@ -23,7 +23,15 @@ function CartFactory($http, URL_CONFIG, $rootScope){
         $rootScope.products = products;
     }
     function buy() {
+        if($cookies.get("teaimadok")){
+            $rootScope.products.push($cookies.get("teaimadok"));
+        }
         console.log($rootScope.products);
+        var myproducts ={
+            products:$rootScope.products
+        }
+        $http.post('/api/buy', myproducts);
+        
     }
 }
 

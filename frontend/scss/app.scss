@@ -96,21 +96,12 @@ a.project-link:hover {
 
 
 
-.products {
-    .title {
-        margin-top:100px;
-        text-transform: uppercase;
-        color: #1A1D22;
-    }
-
-    margin-bottom:50px;
-
-}
-
 .product {
+    color:gray;
      margin-top:100px;
-    .center-text{
-            text-align: center;
+    .description-block{
+           padding-left: 20px;
+            padding-right: 20px;
     }   
     .title {
        
@@ -119,42 +110,86 @@ a.project-link:hover {
     }
 
     .heading{
+        font-size:40px;
         color:black;
         margin-bottom:1.2em;
-        text-decoration: underline;
-        color:gray;
+        color:rgba(42,60,46,1);
         text-transform: uppercase;
     }
     .description{
           
         display:block;
         word-wrap:break-word;
+        
         font-size:16px;
     }
-
-    .product-image{
-        margin-top: 30px;
-    }
-    .pricebox{
-                    .price{
-                 text-align: center;
+    .product-imagebox {
+        padding:30px;
+        .mainImageBox {
+                     margin-top: 30px;      
+                
+            img{
+                    width: 100%;
+                   
             }
-        .quantity{
+        }
+        .smallImageBox{
+            cursor: pointer;
+             margin-top:10px;
+                         img{
+                    width: 100%;
+                  
+            } 
+        }    
+    }    
+    .pricebox{
+        .gramm{
+            font-size:25px;
+        }
+        .cup{
+            font-size: 25px;
+        }
+        .pricehead{
+            text-transform: uppercase;
+            color:#388e3c;
             text-align: center;
+           
+            margin-top: 20px;
+        }
+        .price{
+            color:black;
+            font-weight: bold;
+              text-align: center;
+           font-size:16px;
+             margin-bottom: 20px;
+        }
+        .quantity{
             font-size: 18px;
             margin-bottom: 25px;
 
-            .productprice{
-                 text-align: center;
-            
-                font-size: 27px;
-                
+            .productprice{    
+                font-size: 22px;            
             }
-            p{
-                   font-size: 18px;
+             
+            .quantitybuttons{
+                text-align: right;
+                display: inline-block;
             }
         }
+        .guarantee{
+            
+            font-size:20px;
+            text-align: center;
+            vertical-align: center;
+            
+            @media(min-width:600px) {
+                    font-size: 25px
+            }
 
+            @media(max-width:400px) {
+                    font-size: 16px
+            }
+        }
     }
 
     margin-bottom:50px;
@@ -271,4 +306,32 @@ a.project-link:hover {
 }
 .mypreloaderNone{
     display: none;
+}
+
+.buyfailed{
+        
+    margin-top:100px;
+
+    margin-bottom:50px;
+
+}
+
+#cookiePolicy {
+	position:fixed;
+	z-index:1000;
+	left: 0px;
+	width:100%;
+	padding-top:10px;
+    bottom: 0px;
+	min-height:70px;
+	    background-color: #151515;
+    color: #fff;
+}
+
+#cookiePolicy .hide{
+	display:none;
+}
+
+#cookiePolicy .show{
+	display: block;
 }

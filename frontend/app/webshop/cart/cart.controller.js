@@ -1,4 +1,4 @@
-function CartController(CartFactory, toastr) {
+function CartController(CartFactory,$state,$rootScope,  toastr) {
   "ngInject"
   var vm = this;
     vm.products = CartFactory.getProducts();
@@ -6,7 +6,6 @@ function CartController(CartFactory, toastr) {
     vm.addProduct = addProduct;
     vm.subProduct = subProduct;
     vm.removeProduct = removeProduct;
-    
     
     function addProduct() {
         updateProduct(vm.products);    
@@ -20,15 +19,19 @@ function CartController(CartFactory, toastr) {
         if (index > -1) {
             vm.products.splice(index, 1);
         }
+        $rootScope.$broadcast('updatecartheader', { add: -1 });
         updateProduct(vm.products);
     }
     
     function updateProduct(products) {
-
+        
         CartFactory.updateProducts(products);
     }
     
     function buyProduct(){
+
+        
+        $state.go('buyfailed');
         CartFactory.buy(vm.products);
     }
     

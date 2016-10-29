@@ -17,10 +17,16 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('index');
 });
+Route::get('/aszf', function () {
+    return view('index');
+});
 Route::get('/products', function () {
     return view('index');
 });
 Route::get('/cart', function () {
+    return view('index');
+});
+Route::get('/unsuccessful', function () {
     return view('index');
 });
 
@@ -35,8 +41,9 @@ Route::get('/errors/{error}', function () {
     return view('index');
 });
       
-
+Route::post('/api/buy', 'CartHandler\BuyProductController@buyProduct' );
             
+
 Route::post('oauth/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });

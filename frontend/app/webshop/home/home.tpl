@@ -5,12 +5,13 @@
                     <div class="col-md-12 col-sm-12">
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
-                            <h1 class="home-title text-center">Kávé, egészségesebben?</h1>
-                            <p class="home-secoundheader text-center">Pörgesd fel magad Amerika új kedvencével!</p>
 
+                                <h1 class="home-title text-center">Unod a fáradtságot?</h1>
+                                <p class="home-secoundheader text-center">Pörgesd fel magad Amerika új kedvencével!</p>
+    
                             <div class="download-btn">
                             <!-- BUTTON -->
-                                <a class="btn wow pulse page-scroll"  data-wow-duration="2s" data-wow-iteration="100" href="#about">Nézz körbe<i class="fa fa-angle-down"></i></a>
+                                <a class="btn wow green lighten-2 pulse page-scroll"  data-wow-duration="2s" data-wow-iteration="100" href="#about">Nézz körbe<i class="fa fa-angle-down"></i></a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +34,7 @@
                         <!-- TITLE -->
                         <div class="inner_about_title">
                             <h2>Tradíciótól <br> a világ uralom felé</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>A matcha tea Japánból indult el világkörüli útjára és manapság már olyan pletykákat lehet hallani, hogy ez lesz a kávé utódja.</p>
                         </div>
                         <div class="inner_about_desc">
 
@@ -42,8 +43,8 @@
                                 <!-- ICON -->
                                 <div><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
                                 <!-- HEADING DESCRIPTION -->
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                                <h3>Ázsiából indult</h3>
+                                <p>A matcha közel 1000 éve áll a tadícionális Japán és Kínai tea ceremóniák középpontjában.</p>
                             </div>
                             <!-- END SINGLE DESC -->
 
@@ -53,8 +54,8 @@
                                 <!-- ICON -->
                                 <div><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
                                 <!-- HEADING DESCRIPTION -->
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                                <h3>Az USA-ban már tombol</h3>
+                                <p>Californiából indult az egészség láz, így nem véletlen, hogy megjelent a matcha tea is, mivel matcha tea-nak megszámlálhatatlan pozitív hatása van a szervezetre. Ezekről többet olvashatsz, ha lejjebb görgetsz.</p>
                             </div>
                             <!-- END SINGLE DESC -->
 
@@ -64,8 +65,8 @@
                                 <!-- ICON -->
                                 <div><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
                                 <!-- HEADING DESCRIPTION -->
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                                <h3>Egyre népszerűbb a világban</h3>
+                                <p>A matcha tea egyre népszerűbb a világban. Manapság már nem csak tea formájában isszák, hanem felhasználják sütemények, fagylaltok és ételek készítéséhez is.</p>
                             </div>
                             <!-- END SINGLE DESC -->
 
@@ -100,8 +101,7 @@
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="1">
                             </ol>
 
                             <!-- Wrapper for slides -->
@@ -113,7 +113,7 @@
                                                 <div class="testimonial_caption">
                                                    <!-- DESCRIPTION -->  
                                                     <h2>Tudtad??</h2>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                                                    <p>A matcha több mint 5x annyi L-theanine-t tartalmaz mint az átlagos zöldteák. Az L-theanine stimulálja az agy alfa hullámait. Az alfahullámok feltűnése pedig egy éberségi állapotot biztosít, ezért érezzük magunkat fókuszáltabbnak.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,20 +126,7 @@
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Tudtad?</h2>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12 text-center">
-                                                <div class="testimonial_caption">
-                                                <!-- DESCRIPTION --> 
-                                                    <h2>Tudtad?</h2>
-                                                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                                                    <p>Egy a Biological Psichology folyóirat által kiadott tanulmány bebizonyította, hogy ha az L-theanine mellé koffeint keverünk, akkor javul a reakcióidőnk, gyorsul a numerikus munka memória reakció ideje  és javul az itélő képességünk pontossága is.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -154,7 +141,53 @@
     </section>
 
 
+    <section class="about page" id="graph">
+        <div class="video_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeftBig">
+                    <!-- VIDEO LEFT TITLE -->
+                        <div class="video_title">
+                            <h2>Dobd ki a kávéd!</h2>
+                            <p>A matcha tea körülbelül harmad annyi koffeint tartalmaz, mint a kávé vagy az energia italok, viszont az energia szint, amit biztosít mégis sokkal magasabb. Ez a magas mennyisőgű L-Theanine-nek  köszönhető, ami stimulálja az alfa hullámokat. Az alfahullámok erősödésének következményeként azt veszed majd észre, hogy éberebb és fókuszáltabb leszel. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInRightBig">
+                         <!-- VIDEO -->
+                        <div class="video">
+                           <img src="/dist/images/EnergyGraph.png"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="about page" id="graph2">
+        <div class="video_area secound">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6  wow fadeInLeftBig" >
+                    <!-- VIDEO LEFT TITLE -->
+                        <div class="video_title">
+                            <h2>Gazdag antioxidáns forrás!</h2>
+                            <p>A matcha tea <b>10x</b> annyi antioxidánst tartalmaz, mint a normál zöldteák! Ez a matcha egyik legnagyobb előnye, mivel az antioxidánsok a szervezetünk egyik létfontosságú elemei. Az antioxidánsok legfontosabb szerepe, hogy megakadályozzák a betegségek kialakulását.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-md-6  wow fadeInRightBig">
+                         <!-- VIDEO -->
+                        <div class="video">
+                           <img src="/dist/images/matchachart_2.png"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>        
+        
     <!-- END TESTIMONIAL SECTION -->
 
     <section id="FEATURES" class="features page">
@@ -163,7 +196,7 @@
                 <div class="col-md-10 col-md-offset-1">
                     <!-- FEATURES SECTION TITLE -->
                     <div class="section_title wow fadeIn" data-wow-duration="1s">
-                        <h2>Miért olyan népszerű az USA-ban?</h2>
+                        <h2>Tehát miért is olyan népszerű?</h2>
                         <p></p>
                     </div>
                     <!-- END FEATURES SECTION TITLE -->
@@ -182,8 +215,8 @@
                             <div><i class="fa fa-leaf" aria-hidden="true"></i></div>
 
                             <!-- FEATURE HEADING AND DESCRIPTION -->
-                            <h3>Egyenletes hatás</h3>
-                            <p>A kávéval ellentétben, a teában lévő koffeinnek sokkal egyenletesebb a felszívódása, ezért a nap folyamán egyenletes energiát ad.</p>
+                            <h3>Egész napos energia</h3>
+                            <p>A kávéval ellentétben, a teában lévő koffeinnek sokkal egyenletesebb a felszívódása, tehát nem lesznek hullám hegyek és hullám völgyek az energiaszintedben</p>
                         </div>
 
                         <!-- END SINGLE FEATURE -->
@@ -207,8 +240,8 @@
                             <div><i class="fa fa-leaf" aria-hidden="true"></i></div>
 
                             <!-- FEATURE HEADING AND DESCRIPTION -->
-                            <h3>Egész napos energia</h3>
-                            <p>A kávéval ellentétben a matcha hatása folyamatos, nem lesznek hullám hegyek és hullám völgyek az energiaszintedben</p>
+                            <h3>Fogyasztó hatás</h3>
+                            <p>Kimutatták, hogy a matcha tea folyamatos fogyasztása testsúly csökkentő.</p>
                         </div>
                         <!-- END SINGLE FEATURE -->
 
@@ -267,13 +300,13 @@
                     <!-- VIDEO LEFT TITLE -->
                         <div class="video_title">
                             <h2>Éld át az <br/>élményt</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                            <p>Nézd meg ezt a rövid angol nyelvű videót, amiben bemutatják, hogy hogyan készül a matcha.</p>
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeInRightBig">
                          <!-- VIDEO -->
                         <div class="video">
-                            <iframe src="https://player.vimeo.com/video/88209254?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" width="560" height="315"></iframe>
+                            <iframe src="https://www.youtube.com/embed/JxxcrwkS70w" width="560" height="315"></iframe>
                         </div>
                     </div>
                 </div>
@@ -290,7 +323,7 @@
     <div class="call_to_action">
         <div class="container">
             <div class="row wow fadeInLeftBig center-block" data-wow-duration="1s">
-                    <a class="btn center-block col-md-12 col-sm-12 col-xs-12" href="#" ui-sref="product({productId: 'matcha'})" style="font-size:30px;" role="button"><b>Rendelek</b></a>
+                    <a class="btn center-block col-md-12 col-sm-12 col-xs-12" href="#" ui-sref="product({productId: 'matcha'})" style="font-size:24px;" role="button"><b>Irány a termékhez</b></a>
                 </div>
             </div>
         </div>
@@ -313,7 +346,7 @@
                                                             <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                                                                 <!-- Bottom Carousel Indicators -->
                                                                 <ol class="carousel-indicators">
-                                                                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                                                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="/dist/images/picture.jpg" alt="">
                                                                     </li>
                                                                     <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/rssems/128.jpg" alt="">
                                                                     </li>
@@ -362,9 +395,6 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <!-- Carousel Buttons Next/Prev -->
-                                                                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                                                                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
                                                             </div>
                                                         </div>
                                                  

@@ -7,12 +7,70 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
         
 
-		<link rel="stylesheet" href="dist/css/app.css">
-
-
-        <base href="/">    
+		<link rel="stylesheet" href="/dist/css/app.css">
+        
+		<meta property="fb:app_id"          content="1234567890" /> 
+		<meta property="og:type"            content="article" /> 
+		<meta property="og:url"             content="http://teaimadok.hu/" /> 
+		<meta property="og:title"           content="TeaImádók" /> 
+		<meta property="og:image"           content="http://teaimadok.hu/dist/images/matcha.png" /> 
+		<meta property="og:description"    content="Tradídiótól, a világuralom felé." />
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="/dist/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/dist/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/dist/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/dist/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/dist/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/dist/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/dist/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/dist/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/dist/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/dist/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/dist/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/dist/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/dist/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/dist/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/dist/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+		<!-- Hotjar Tracking Code for http://teaimadok.hu/ -->
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:316624,hjsv:5};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+				
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WB3N47');</script>
+		<!-- End Google Tag Manager -->
+		
+		<!--smart look -->
+		<script type="text/javascript">
+				window.smartlook||(function(d) {
+				var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+				var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+				c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+				})(document);
+				smartlook('init', '6a861108b1ad90f413e1776a455ab1bbf0c4878d');
+			</script>
+		<base href="/">    
     </head>
     <body ng-app="myapp" >
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB3N47"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+	
         <div id="mypreloaderbackground" class="">
         <div  class="section_overlay" ng-controller="HeaderController" >
             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -23,8 +81,8 @@
                             <i class="fa fa-bars fa-2x"></i>
                         </button>
                         <a class="navbar-brand" href="/">
-                            LOGO
-                           <!-- <img src="images/logo.png" alt="Logo">-->
+                            
+                            <img src="/dist/images/logonew.png" alt="Logo">
                         </a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,13 +91,13 @@
                             
                             
                         <li class="navicons hidden-xs" style="display:flex">
-                            <a href="https://www.facebook.com/csucsteljesitmeny.hu"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a>
-                            <a href="https://www.youtube.com/channel/UC9iwRIpBqrsnFD7Wk7YiUpA"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></a>
-                            <a  href="https://www.instagram.com/csucsteljesitmeny.hu/"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></a>
+                            <a href=""><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a>
+                            <a href=""><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></a>
+                            <a  href=""><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></a>
                         </li>
 
-                          <li><a href="#"  ui-sref="products">Termékek</a></li>
-						  <li><a href="#" style="padding-bottom: 5px;padding-top: 12px;" ui-sref="cart"><i class="fa fa-shopping-cart  fa-2x hidden-xs" aria-hidden="true"></i><span class="visible-xs">Kosár</span></a></li>
+                          <li><a href="#"  ui-sref="product({productId: 'matcha'})">Termékhez</a></li>
+						  <li><a href="#" style="padding-bottom: 5px;padding-top: 12px;" ui-sref="cart"><i class="fa fa-shopping-cart  fa-2x hidden-xs" aria-hidden="true"></i><span class="visible-xs">Kosár</span><span ng-if="cartCount!==0"  class="hidden-xs">{{cartCount}}</span></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -107,15 +165,19 @@
                     <div class="copy_right_text">
                     <!-- COPYRIGHT TEXT -->
                         <p>Copyright TeaImadok.hu 2016.</p> 
-                        <p>Minden jog fent tartva.</p>        
-                    </div> 
+                        <p>Minden jog fent tartva.</p>  
+                        <a href="/aszf">ÁSZF</a>
+                    <!--<a href="">Adatvédelem</a> -->
+                        <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online vitarendezés</a>
+                    </div>
+
                 </div>
                 <div class="col-md-6">
                     <h1>Kövess minket</h1>
                     <ul class="list-inline lead">
-                        <li><a href="https://www.facebook.com/csucsteljesitmeny.hu"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC9iwRIpBqrsnFD7Wk7YiUpA"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/csucsteljesitmeny.hu/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li><a href=""><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -132,11 +194,30 @@
                   <div class="circle" style="border-width: 10px;"></div>
                 </div>
               </div>
-        </div>        
-            
-        <script src="dist/lib/angularlib.min.js"></script> 
+        </div>    
+        
+      <div id="cookiePolicy" class="container-fluid text-center">
+        <div class="row">
+        <span class="col-lg-8 col-sm-12 col-xs-12"><b>Ahogy majdnem minden honlappal rendelkező cég, mi is használunk sütiket a weboldalunkon.</b></br><a style="color:white" href="https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=hu">Itt olvashatsz róla bővebben.</a></span>
+        <div  class="col-lg-4 col-sm-12 col-xs-12">
+        <a id="cookiePolicyButton" class="btn btn-default">Elfogadom</a>
+        </div>
+    </div>  
+        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-75676609-3', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+        
+            		<script src="/dist/lib.min.js"></script>
+        <script src="/dist/lib/angularlib.min.js"></script> 
                 <script src="dist/app.min.js"></script>    
-		<script src="dist/lib.min.js"></script>
+
 
     
     </body>

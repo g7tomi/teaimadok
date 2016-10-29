@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers\LoginAndRegistration;
+<?php namespace App\Http\Controllers\UserHandler;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -22,6 +22,7 @@ class UserController extends Controller {
         return response('success',200);
         
     }
+
            
     public function registerUser(Request $request){      
     

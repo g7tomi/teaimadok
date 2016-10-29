@@ -57,7 +57,7 @@ p {
     bottom: -20px;
     width: 60px;
     height: 1px;
-    background-color: #f39c12;
+    background-color: #388e3c;
     left: 50%;
     margin-left: -30px;
 }
@@ -100,33 +100,34 @@ p {
     
 }
 
-
     .navbar-default {
         font-size:18px;
         color:white;
         text-transform: uppercase;
-        background-color: rgba(59, 59, 59, 0.701961);
+        background-color: none;
+    }
+    @media(min-width:768px) {
+        .navbar-default:hover{
+            background-color: rgba(59, 59, 59, 0.701961);
+        }
     }
     .navbar-default .navbar-nav>li>a {
 
         color: #B5B5B5;
     }
     .navbar-default .navbar-nav>li>a:hover {
-        color: #f39c12;
+        color: #388e3c;
     }
 @media(min-width:768px) {
 
-    .top-nav-collapse {
-        padding: 10px 30px;
-        background-color: #000;
-    }
+
     .navbar-default .navbar-nav>li>a {
         color: #B5B5B5;
         font-family: 'open sans', sans-serif;
     }
 
     .navbar-default {
-        
+        background-color: transparent;
         -webkit-transition: all 1s;
         -moz-transition: all 1s;
         -o-transition: all 1s;
@@ -149,6 +150,11 @@ p {
     .navbar-nav>li>a {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    
+        .top-nav-collapse {
+        padding: 10px 30px;
+        background-color: #000;
     }
 }
 @media (max-width: 768px) {
@@ -180,7 +186,7 @@ p {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background: transparent;
-    color: #f39c12;
+    color: #81c784;
 }
 .header {
     height:100%;
@@ -203,7 +209,8 @@ p {
     color: #fff;
     text-transform: uppercase;
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 800;
+    margin: 0px;
     @media (max-width: 768px) {
         font-size: 25px;
     }
@@ -212,11 +219,11 @@ p {
     padding-top: 30px
 }
 .home-secoundheader {
+    margin:10px;
     text-transform: uppercase;
-    color: #fff;
+    color: #288a30;
     font-size: 24px;
     line-height: 28px;
-    margin-top: 110px;
     font-weight: 900;
 }
 .download-btn {
@@ -243,7 +250,7 @@ p {
     transition: all 1s;
 }
 .home-btn:hover {
-    background-color: #f39c12;
+    background-color: #388e3c;
     color: #fff;
 }
 .tuor,
@@ -267,7 +274,7 @@ tuor:visited {
 .tuor i {
     font-size: 20px;
     padding-left: 5px;
-    color: #f39c12;
+    color: #388e3c;
 }
 
 
@@ -300,7 +307,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #f39c12;
+    background: #388e3c;
     height: 1px;
 }
 .inner_about_title p {
@@ -337,7 +344,7 @@ tuor:visited {
     font-size: 15px;
 }
 .single_about_area:hover div i {
-    color: #f39c12;
+    color: #388e3c;
 }
 .about_phone img {} @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
@@ -352,8 +359,13 @@ tuor:visited {
 
 .video_area {
     background: #e4e4e4;
-    padding-bottom: 140px;
+    padding-bottom: 80px;
     padding-top: 120px;
+}
+.video_area.secound{
+    background: #e4e4e4;
+    padding-bottom: 140px;
+    padding-top: 50px;
 }
 .video_title {
     padding-bottom: 30px;
@@ -372,7 +384,7 @@ tuor:visited {
     bottom: -12px;
     left: 0;
     width: 70px;
-    background: #f39c12;
+    background: #388e3c;
     height: 1px;
 }
 .video_title p {
@@ -398,13 +410,17 @@ tuor:visited {
     transition: all 1s;
 }
 .btn-video:hover {
-    background: #f39c12;
+    background: #388e3c;
     color: #fff;
-    border: 1px solid #f39c12;
+    border: 1px solid #388e3c;
 }
 .video {} .video iframe {
     width: 100%;
-    border: 1px solid #999999;
+    padding: 5px;
+}
+
+.video {} .video img {
+    width: 100%;
     padding: 5px;
 }
 /*---------------------------------------
@@ -422,7 +438,7 @@ tuor:visited {
     height: auto;
 }
 .testimonial {
-    background: url(../images/california.jpg);
+    background: url(../images/matcha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -435,7 +451,7 @@ tuor:visited {
     bottom: -8px;
 }
 div.carousel-inner .item img {
-    border: 2px solid #f39c12;
+    border: 2px solid #388e3c;
     border-radius: 50%;
     padding: 3px;
 }
@@ -449,14 +465,14 @@ div.carousel-inner .item img {
     padding-top: 50px;
 }
 .testimonial_caption h2 {
-    color: #f39c12;
+    color: #388e3c;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
     margin-top: 25px;
 }
 .testimonial_caption h4 {
-    color: #f39c12
+    color: #388e3c
 }
 .testimonial_caption h4 span {
     color: #D8D8D8;
@@ -466,14 +482,14 @@ div.carousel-inner .item img {
 .testimonial ol.carousel-indicators li {
     width: 12px;
     height: 12px;
-    border: 1px solid #f39c12;
+    border: 1px solid #388e3c;
     margin: 1PX
 }
 .testimonial ol.carousel-indicators li.active {
     width: 12px;
     height: 12px;
-    border: 0px solid #f39c12;
-    background: #f39c12;
+    border: 0px solid #388e3c;
+    background: #388e3c;
 }
 /*---------------------------------------
    SECTION FEATURES              
@@ -498,7 +514,7 @@ div.carousel-inner .item img {
 .right_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #388e3c;
     left: 0;
     width: 90px;
     height: 90px;
@@ -513,7 +529,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .right_single_feature h3 span {
-    color: #f39c12;
+    color: #388e3c;
 }
 .right_single_feature p {
     color: #333;
@@ -533,7 +549,7 @@ div.carousel-inner .item img {
 .left_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #388e3c;
     right: 0;
     width: 90px;
     height: 90px;
@@ -548,7 +564,7 @@ div.carousel-inner .item img {
     color: #333333;
 }
 .left_single_feature h3 span {
-    color: #f39c12;
+    color: #388e3c;
 }
 .left_single_feature p {
     color: #333;
@@ -598,8 +614,8 @@ div.carousel-inner .item img {
 .btn-action:active,
 .btn-action:focus,
 .btn-action:visited {
-    background: #f39c12;
-    border: 1px solid #f39c12;
+    background: #388e3c;
+    border: 1px solid #388e3c;
     color: #fff;
     border-radius: 3px;
     padding: 15px 35px;
@@ -636,12 +652,12 @@ div.carousel-inner .item img {
     -moz-border-radius: 20px;
     border-radius: 20px;
     background: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #388e3c;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
-    background: #f39c12;
+    background: #388e3c;
 }
 /*---------------------------------------
    SECTION FUN FACTS              
@@ -660,7 +676,7 @@ div.carousel-inner .item img {
     font-family: 'Source Sans Pro', sans-serif;
 }
 .single_fun_facts i {
-    color: #f39c12;
+    color: #388e3c;
     font-size: 60px;
     ;
 }
@@ -725,7 +741,7 @@ div.carousel-inner .item img {
     transition: all 1s;
 }
 .single_store i {
-    color: #f39c12;
+    color: #388e3c;
     text-align: center;
     opacity: 1;
     font-size: 40px;
@@ -802,8 +818,8 @@ div.carousel-inner .item img {
 
 }
 .contact_form .form-control:focus {
-    border: 1px solid #f39c12;
-    border-color: #f39c12;
+    border: 1px solid #388e3c;
+    border-color: #388e3c;
     outline: 0px none;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px rgba(102, 175, 233, 0.6);
 }
@@ -828,13 +844,13 @@ div.carousel-inner .item img {
 .submit-btn:focus,
 .submit-btn:visited {
     background-color: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #388e3c;
     border-radius: 4px;
     width: 100%;
     height: 50px;
     text-transform: uppercase;
     font-size: 18px;
-    color: #f39c12;
+    color: #388e3c;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -842,9 +858,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .submit-btn:hover {
-    background-color: #f39c12;
+    background-color: #388e3c;
     color: #fff;
-    border-color: #f39c12;
+    border-color: #388e3c;
 }
 .social_icons {
     padding-top: 50px;
@@ -879,12 +895,12 @@ div.carousel-inner .item img {
     font-size: 20px;
 }
 .social_icons ul li a:hover {
-    background: #f39c12;
-    border: 1px solid #f39c12;
+    background: #388e3c;
+    border: 1px solid #388e3c;
     color: #fff
 }
 .error {
-    color: #f39c12;
+    color: #388e3c;
     display: block;
     padding-bottom: 15px;
     font-size: 18px
@@ -961,12 +977,12 @@ div.carousel-inner .item img {
 .subs-btn:visited {
     width: 200px;
     background: transparent;
-    border: 1px solid #f39c12;
+    border: 1px solid #388e3c;
     border-radius: 4px;
     height: 45px;
     margin-left: 0px;
     margin-bottom: 1px;
-    color: #f39c12;
+    color: #388e3c;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 17px;
@@ -977,9 +993,9 @@ div.carousel-inner .item img {
     outline: 0px !important;
 }
 .subs-btn:hover {
-    background-color: #f39c12;
+    background-color: #388e3c;
     color: #fff;
-    border-color: #f39c12;
+    border-color: #388e3c;
 }
 @media (min-width: 300px) {
     .subscribe_form .form-control {
@@ -1004,7 +1020,7 @@ div.carousel-inner .item img {
     background-color: #1A1D22;
     padding-bottom: 65px;
     padding-top: 65px;
-    border-bottom: 3px solid #f39c12;
+    border-bottom: 3px solid #388e3c;
 }
 .copyright h2 {
     height: 0px;
@@ -1021,7 +1037,7 @@ div.carousel-inner .item img {
 }
 .copy_right_text p a {
     text-decoration: none;
-    color: #f39c12;
+    color: #388e3c;
 }
 .copy_right_text p span {
     font-weight: 300;
@@ -1030,7 +1046,7 @@ div.carousel-inner .item img {
     text-align: right;
 }
 .scroll_top a {
-    background: #f39c12;
+    background: #388e3c;
     padding: 25px;
 }
 .scroll_top a i {
@@ -1391,7 +1407,7 @@ div[toast].ng-leave.ng-leave-active {
     width: 70px;
     height: 70px;
     border-radius: 100px;
-    border-color: #f39c12;
+    border-color: #388e3c;
     opacity: 1;
     overflow: hidden;
     
@@ -1424,3 +1440,7 @@ div[toast].ng-leave.ng-leave-active {
     float: left;
     margin-right: 10px;
 }
+
+
+
+

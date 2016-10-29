@@ -40,7 +40,9 @@ function buildjs() {
     .pipe(source('app.js'))
     .pipe(buffer())
     .pipe(rename('app.min.js'))
-    //.pipe(uglify())
+  //  .pipe(uglify({
+   //             mangle: true
+    //       }))
     .pipe(gulp.dest(packageJSON.config.destdir))
 }
 gulp.task('buildjs', buildjs);
@@ -57,11 +59,13 @@ function buildjslib() {
             packageJSON.config.basedir+'/jslib/waypoints.min.js',
             packageJSON.config.basedir+'/jslib/jquery.counterup.min.js',
             packageJSON.config.basedir+'/jslib/jquery.easing.min.js',
-            packageJSON.config.basedir+'/jslib/script.js'])
+            packageJSON.config.basedir+'/jslib/cookies.js',
+            packageJSON.config.basedir+'/jslib/script.js'
+            ])
         .pipe(concat('lib.js'))
-        //   .pipe(uglify({
-        //        mangle: true
-        //   }))
+           .pipe(uglify({
+                mangle: true
+           }))
             .pipe(rename({
                 extname: '.min.js'
             }))
@@ -156,9 +160,9 @@ function copyThirdPartyDev() {
             , 'node_modules/angular-toastr/dist/angular-toastr.tpls.js'
     ])    
         .pipe(concat('angularlib.js'))
-        //   .pipe(uglify({
-        //        mangle: true
-        //   }))
+          .pipe(uglify({
+                mangle: true
+          }))
             .pipe(rename({
                 extname: '.min.js'
             }))

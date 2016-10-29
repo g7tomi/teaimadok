@@ -31,6 +31,18 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 
+//Carousel Tweaking
+function mycarousel_initCallback(carousel) {
+	
+	// Pause autoscrolling if the user moves with the cursor over the clip.
+	// resume otherwise
+	carousel.clip.hover(function() {
+		carousel.stopAuto();
+	}, function() {
+		carousel.startAuto();
+	});
+}
+	
 
 
 
@@ -110,6 +122,24 @@ $(document).ready(function() {
     $(".video").fitVids();
 });
 
+
+		
+				var policy = Cookies.get("cookiePolicy");
+				if(policy == undefined) {
+					$('#cookiePolicy').removeClass("hide");
+					$('#cookiePolicy').addClass("show");
+				}
+				if(policy != 'true'){
+						$('#cookiePolicy').addClass("show");
+				}
+				if(policy == 'true'){
+						$('#cookiePolicy').addClass("hide");
+				}
+				$("#cookiePolicyButton").click(function(){
+					Cookies.set("cookiePolicy", "true");
+					$('#cookiePolicy').removeClass("show");
+					$('#cookiePolicy').addClass("hide");
+				});
 
 
 

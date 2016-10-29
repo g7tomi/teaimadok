@@ -14,7 +14,7 @@
                         <div class="name"><b>{{product.name}}</b></div>
                         
                         
-                        <div class="gramm hidden-xs hidden-sm visible-md visible-lg">A {{product.gramm}}-os kiszerelést választottad, amelyből akár {{product.gramm}} csésze teát készíthetsz.</div>
+                        <div class="gramm hidden-xs hidden-sm visible-md visible-lg">A {{product.gramm}}-os kiszerelést választottad, amelyből akár {{product.serving}} csésze teát készíthetsz.</div>
                         <div class="gramm visible-xs visible-sm hidden-md hidden-lg"><b>Kiszerelés:</b> {{product.gramm}}g</div>
                          <h2 class="pricePerServing">{{product.pricePerItem}}Ft/csésze</h2>
                     </div>
@@ -26,9 +26,9 @@
                             </div>  
                              <div class="row">
                                  <div class="modifyvalue">
-                                <button class="btn orange lighten-2 sub" ng-click="product.quantity>1 &&  (product.quantity = product.quantity-1) && vm.subProduct(product)">-</button>
+                                <button class="btn green lighten-2 sub" ng-click="product.quantity>1 &&  (product.quantity = product.quantity-1) && vm.subProduct(product)">-</button>
                                      <span class="quantity">{{product.quantity}}</span>
-                                <button class="btn orange lighten-2 add" ng-click="product.quantity<10 &&  (product.quantity = product.quantity+1) && vm.addProduct(product)">+</button>
+                                <button class="btn green lighten-2 add" ng-click="product.quantity<10 &&  (product.quantity = product.quantity+1) && vm.addProduct(product)">+</button>
                                 </div>     
                             </div>    
                             <div class="row"> 
