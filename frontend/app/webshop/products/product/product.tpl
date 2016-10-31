@@ -27,13 +27,12 @@
                 <div class="pricebox center-block">
                     <div class="row ">
                          <h3  class="pricehead"><b>Már kevesebb mint 1 csésze kávé áráért!</b></h3>
-                        <p class="price">1 adag {{vm.product.pricePerItem}} Ft</p>
                          <div class="gramm">
                              <object data="/dist/images/old-weights.svg" style="width:35px;height:35px;" type="image/svg+xml"></object>
                                 {{vm.product.gramm}} grammos kiszerelés</div>
                             <div class="cup">
                                 <object data="/dist/images/cup.svg" style="width:35px;height:35px;" type="image/svg+xml"></object>
-                                 {{vm.product.serving}} csésze tea készthető</div>                
+                                 {{vm.product.serving}} csésze tea készíthető</div>                
                     </div>
                     <div class="row ">
                         <div class="quantity">

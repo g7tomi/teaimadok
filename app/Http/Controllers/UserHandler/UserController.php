@@ -28,12 +28,22 @@ class UserController extends Controller {
     
         $user = new User();
         $user->username = $request->input('username');
-        $user->firstname = $request->input('firstname');
-        $user->lastname = $request->input('lastname');
+        $user->name = $request->input('name');
         $user->email = $request->input('email');
         $user->password = \Illuminate\Support\Facades\Hash::make($request->input('password'));
   return response($user,200);
         $user->save();
         
         }
+    public function updateUserDetails(Request $request){
+        User::find(Authorizer::getResourceOwnerId());
+        $user->username = $request->input('username');
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->password = \Illuminate\Support\Facades\Hash::make($request->input('password'));
+        $user->country = $request->input('country');
+        $user->city = $request->input('city');
+        $user->zipcode = $request->input('zipcode');
+        $user->address = $request->input('address');
+    }
 }

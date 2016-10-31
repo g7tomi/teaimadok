@@ -10,7 +10,7 @@ URL: http://designscrazed.org/
   1. COMMON STYLES
   2. SECTION HOME 
   3. SECTION ABOUT
-  4. SECTION VIDEO
+  4. SECTION feature
   5. SECTION TESTIMONIAL
   6. SECTION FEATURES 
   7. SECTION CALL TO ACTION
@@ -286,7 +286,7 @@ tuor:visited {
 
 
 .about {
-    background: #F1F1F1;
+    background: #fff;
 }
 .inner_about_area {
     padding-top: 150px;
@@ -354,23 +354,28 @@ tuor:visited {
     }
 }
 /*---------------------------------------
-   SECTION VIDEO              
+   SECTION feature              
 -----------------------------------------*/
 
-.video_area {
+.product-feature-container {
+    margin-top:30px;
+    margin-bottom: 120px;
+}
+
+.feature_area {
     background: #e4e4e4;
     padding-bottom: 80px;
     padding-top: 120px;
 }
-.video_area.secound{
+.feature_area.secound{
     background: #e4e4e4;
     padding-bottom: 140px;
     padding-top: 50px;
 }
-.video_title {
+.feature_title {
     padding-bottom: 30px;
 }
-.video_title h2 {
+.feature_title h2 {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 30px;
@@ -378,7 +383,7 @@ tuor:visited {
     position: relative;
     margin-top: 0px;
 }
-.video_title h2:after {
+.feature_title h2:after {
     content: "";
     position: absolute;
     bottom: -12px;
@@ -387,17 +392,17 @@ tuor:visited {
     background: #388e3c;
     height: 1px;
 }
-.video_title p {
+.feature_title p {
     font-size: 18px;
     line-height: 28px;
     margin-top: 40px;
     color: #333;
     font-weight: 300;
 }
-.btn-video,
-.btn-video:active,
-.btn-video:focus,
-.btn-video:visited {
+.btn-feature,
+.btn-feature:active,
+.btn-feature:focus,
+.btn-feature:visited {
     background: transparent;
     border: 1px solid #929292;
     color: #686868;
@@ -409,20 +414,29 @@ tuor:visited {
     -o-transition: all 1s;
     transition: all 1s;
 }
-.btn-video:hover {
+.btn-feature:hover {
     background: #388e3c;
     color: #fff;
     border: 1px solid #388e3c;
 }
-.video {} .video iframe {
+.feature {} .feature iframe {
     width: 100%;
     padding: 5px;
 }
 
-.video {} .video img {
+.feature {} .feature img {
     width: 100%;
     padding: 5px;
 }
+rounded-feature {} .rounded-feature img {
+    width: 100%;
+    max-width: 400px;
+        -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5px;
+}
+
 /*---------------------------------------
    SECTION TESTIMONIAL              
 -----------------------------------------*/

@@ -34,17 +34,7 @@
         <meta name="msapplication-TileImage" content="/dist/images/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         
-		<!-- Hotjar Tracking Code for http://teaimadok.hu/ -->
-		<script>
-			(function(h,o,t,j,a,r){
-				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-				h._hjSettings={hjid:316624,hjsv:5};
-				a=o.getElementsByTagName('head')[0];
-				r=o.createElement('script');r.async=1;
-				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-				a.appendChild(r);
-			})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-		</script>
+
 				
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -63,6 +53,15 @@
 				})(document);
 				smartlook('init', '6a861108b1ad90f413e1776a455ab1bbf0c4878d');
 			</script>
+			
+		<script>
+			(function(h,e,a,t,m,p) {
+			m=e.createElement(a);m.async=!0;m.src=t;
+			p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+			})(window,document,'script','https://u.heatmap.it/log.js');
+			</script>	
+			
+			
 		<base href="/">    
     </head>
     <body ng-app="myapp" >

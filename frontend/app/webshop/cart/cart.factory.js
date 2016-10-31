@@ -23,13 +23,14 @@ function CartFactory($http, URL_CONFIG, $rootScope, $cookies){
         $rootScope.products = products;
     }
     function buy() {
-        if($cookies.get("teaimadok")){
-            $rootScope.products.push($cookies.get("teaimadok"));
-        }
-        console.log($rootScope.products);
         var myproducts ={
             products:$rootScope.products
         }
+        if($cookies.get("teaimadok")){
+            myproducts.teaimadok = $cookies.get("teaimadok");
+        }
+        console.log($rootScope.products);
+
         $http.post('/api/buy', myproducts);
         
     }

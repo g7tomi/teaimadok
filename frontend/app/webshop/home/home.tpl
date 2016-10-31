@@ -6,12 +6,12 @@
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
 
-                                <h1 class="home-title text-center">Unod a fáradtságot?</h1>
+                                <h1 class="home-title text-center">Több energiára vágysz?</h1>
                                 <p class="home-secoundheader text-center">Pörgesd fel magad Amerika új kedvencével!</p>
     
                             <div class="download-btn">
                             <!-- BUTTON -->
-                                <a class="btn wow green lighten-2 pulse page-scroll"  data-wow-duration="2s" data-wow-iteration="100" href="#about">Nézz körbe<i class="fa fa-angle-down"></i></a>
+                                <a class="btn wow green lighten-2 pulse page-scroll"  data-wow-duration="2s" data-wow-iteration="100" href="#effective">Nézz körbe<i class="fa fa-angle-down"></i></a>
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,90 @@
             </div>
     </section>
 
+
+  
     <!-- END HEADER SECTION -->
+<section id="home-title" >
+    <div class="inner_about_area">    
+         <div class="container">
+                <div class="row">
+                    <h1 class="main_title">A 3 legfontosabb.. </h1>
+                </div>
+        </div>
+    </div>
+</section>
+<section id="effective" class="feature-box">
+             <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeftBig">
+                        <div class="feature_title">
+                            <h2>Dobd ki a kávéd!</h2>
+                            <p>A matcha tea körülbelül harmad annyi koffeint tartalmaz, mint a kávé vagy az energia italok, viszont az energia szint, amit biztosít mégis sokkal magasabb. Ez a magas mennyisőgű L-Theanine-nek  köszönhető, ami stimulálja az alfa hullámokat. Az alfahullámok erősödésének következményeként azt veszed majd észre, hogy éberebb és fókuszáltabb leszel. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInRightBig">
+                        <div class="feature">
+                           <img src="/dist/images/EnergyGraph.png"
+                        </div>
+                    </div>
+                 </div>    
+        </div>
+    </div>
+</section>
+<section class="feature-box">
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-6 hidden-xs hidden-sm   wow fadeInLeftBig">
+                        <div class="rounded-feature">
+                           <img  src="/dist/images/womanweightloss.jpg"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRightBig" >
+                    <!-- feature LEFT TITLE -->
+                        <div class="feature_title">
+                            <h2>Fogyj hatékonyabban!</h2>
+                            <p>Egy antioxidáns katekin amit EGCG-nek [epigallocatechin gallate] neveznek nagymértékben fordul elő a matcha teában. Ez a vegyület rendkívüli módon javítja a metabolizmusunk és megállítja a zsír cellék növekedését. Emellett a matcha tea szinte semmi kalóriát nem tartalmaz.</p>
+                        </div>
+                    </div>
+                </div>    
+    </div>
+</section>
+<section class="feature-box">
+       <div class="container">
+                <div class="row">
+                    <div class="col-md-6  wow fadeInLeftBig" >
+                        <div class="feature_title">
+                            <h2>Javítsd az egészséged!</h2>
+                            <p>A matcha tea <b>10x</b> annyi antioxidánst tartalmaz, mint a normál zöldteák! Ez a matcha egyik legnagyobb előnye, mivel az antioxidánsok a szervezetünk egyik létfontosságú elemei. Az antioxidánsok legfontosabb szerepe, hogy megakadályozzák a betegségek kialakulását.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRightBig">
+                         <!-- feature -->
+                        <div class="feature">
+                           <img src="/dist/images/matchachart_2.png"/>
+                        </div>
+                    </div>
+                </div>    
+        </div>
+</section>
+    <div class="call_to_action">
+        <div class="container">
+            <div class="row wow fadeInLeftBig center-block" data-wow-duration="1s">
+                    <a class="btn center-block col-md-12 col-sm-12 col-xs-12" href="#" ui-sref="product({productId: 'matcha'})" style="font-size:24px;" role="button"><b>Megveszem</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- =========================
+     START FEATURES
+============================== -->
+
+    <!-- END FEATURES SECTION -->
+
+
+    <!-- END TESTIMONIAL SECTION -->
 <section id="about" >
         <div class="inner_about_area">
             <div class="container">
@@ -79,15 +162,6 @@
 </section>
 
 
-<!-- =========================
-     START FEATURES
-============================== -->
-
-    <!-- END FEATURES SECTION -->
-
-
-
-
  <!-- =========================
      START TESTIMONIAL SECTION
 ============================== -->
@@ -102,6 +176,7 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-caption-testimonial" data-slide-to="1">
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="2">
                             </ol>
 
                             <!-- Wrapper for slides -->
@@ -113,7 +188,20 @@
                                                 <div class="testimonial_caption">
                                                    <!-- DESCRIPTION -->  
                                                     <h2>Tudtad??</h2>
-                                                    <p>A matcha több mint 5x annyi L-theanine-t tartalmaz mint az átlagos zöldteák. Az L-theanine stimulálja az agy alfa hullámait. Az alfahullámok feltűnése pedig egy éberségi állapotot biztosít, ezért érezzük magunkat fókuszáltabbnak.</p>
+                                                    <p>A matcha teát hideg és meleg vízzel is egyaránt készítik.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item ">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <div class="testimonial_caption">
+                                                   <!-- DESCRIPTION -->  
+                                                    <h2>Tudtad??</h2>
+                                                    <p>Japánban a fogorvos azt javasolja a pácienseink, hogy használják a matchát szájvízként, mert ez megtámadja a bosszantó baktériumokat a fogak és az íny között.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +214,7 @@
                                                 <div class="testimonial_caption">
                                                 <!-- DESCRIPTION --> 
                                                     <h2>Tudtad?</h2>
-                                                    <p>Egy a Biological Psichology folyóirat által kiadott tanulmány bebizonyította, hogy ha az L-theanine mellé koffeint keverünk, akkor javul a reakcióidőnk, gyorsul a numerikus munka memória reakció ideje  és javul az itélő képességünk pontossága is.</p>
+                                                    <p>Egy a Biological Psichology folyóirat által kiadott tanulmány bebizonyította, hogy ha az L-theanine mellé koffeint keverünk (a matcha mind a kettőt tartalmazza), akkor javul a reakcióidőnk, gyorsul a numerikus munka memória reakció ideje  és javul az itélő képességünk pontossága is.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -141,54 +229,8 @@
     </section>
 
 
-    <section class="about page" id="graph">
-        <div class="video_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 wow fadeInLeftBig">
-                    <!-- VIDEO LEFT TITLE -->
-                        <div class="video_title">
-                            <h2>Dobd ki a kávéd!</h2>
-                            <p>A matcha tea körülbelül harmad annyi koffeint tartalmaz, mint a kávé vagy az energia italok, viszont az energia szint, amit biztosít mégis sokkal magasabb. Ez a magas mennyisőgű L-Theanine-nek  köszönhető, ami stimulálja az alfa hullámokat. Az alfahullámok erősödésének következményeként azt veszed majd észre, hogy éberebb és fókuszáltabb leszel. </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInRightBig">
-                         <!-- VIDEO -->
-                        <div class="video">
-                           <img src="/dist/images/EnergyGraph.png"
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about page" id="graph2">
-        <div class="video_area secound">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6  wow fadeInLeftBig" >
-                    <!-- VIDEO LEFT TITLE -->
-                        <div class="video_title">
-                            <h2>Gazdag antioxidáns forrás!</h2>
-                            <p>A matcha tea <b>10x</b> annyi antioxidánst tartalmaz, mint a normál zöldteák! Ez a matcha egyik legnagyobb előnye, mivel az antioxidánsok a szervezetünk egyik létfontosságú elemei. Az antioxidánsok legfontosabb szerepe, hogy megakadályozzák a betegségek kialakulását.</p>
-                        </div>
-                    </div>
-
-                    
-                    <div class="col-md-6  wow fadeInRightBig">
-                         <!-- VIDEO -->
-                        <div class="video">
-                           <img src="/dist/images/matchachart_2.png"/>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>        
+  
         
-    <!-- END TESTIMONIAL SECTION -->
 
     <section id="FEATURES" class="features page">
         <div class="container">
@@ -290,29 +332,6 @@
 
 
 
-    <section class="about page" id="ABOUT">
-
-
-        <div class="video_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 wow fadeInLeftBig">
-                    <!-- VIDEO LEFT TITLE -->
-                        <div class="video_title">
-                            <h2>Éld át az <br/>élményt</h2>
-                            <p>Nézd meg ezt a rövid angol nyelvű videót, amiben bemutatják, hogy hogyan készül a matcha.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInRightBig">
-                         <!-- VIDEO -->
-                        <div class="video">
-                            <iframe src="https://www.youtube.com/embed/JxxcrwkS70w" width="560" height="315"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 

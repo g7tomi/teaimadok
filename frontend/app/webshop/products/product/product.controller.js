@@ -18,7 +18,7 @@ function ProductController(CartFactory,$rootScope, $stateParams, $state,toastr) 
             shortdescription:'Csatlakozz a legújabb egészség őrülethez. A Matcha tea most Magyarországra is megérkezett.',
             description: 'A legújabb egészség őrület Nyugaton már tombol és most végre Magyarországra is megérkezett! Ez a mozgalom egy egy őrölt zöld tea formájában jelent meg, amelyet Matcha-nak hívnak. A Matcha egy japán őrölt tea por, amelynek majdnem végtelen egészségügyi előnye van.',
             image:'/dist/images/matchaproduct.png',
-            images:['/dist/images/matcha-powder-drink.jpg','/dist/images/matchaproduct.png','/dist/images/matcha.jpg'],    
+            images:['/dist/images/matchaproduct.png','/dist/images/matcha.jpg','/dist/images/matcha-powder-drink.jpg'],    
             quantity:1,
             price:3490,
             gramm:50,
